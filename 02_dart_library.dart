@@ -1,6 +1,5 @@
 import 'dart:math';
 
-// 数字、集合、字符串（https://dart.cn/guides/libraries/library-tour#dartcore---numbers-collections-strings-and-more）
 void dartLibrary_Test_String() {
   // 控制台输出
   print('#' * 40);
@@ -106,7 +105,6 @@ void dartLibrary_Test_String() {
   assert(someDigits.contains(numbers));
 }
 
-// 集合 (https://dart.cn/guides/libraries/library-tour#collections)
 void the_lists() {
   // Create an empty list of strings.
   var grains = <String>[];
@@ -315,10 +313,6 @@ void collections() {
   the_public_methods();
 }
 
-// URIs (https://dart.cn/guides/libraries/library-tour#uris)
-// TODO: 暂缓
-
-// 时间和日期 （https://dart.cn/guides/libraries/library-tour#dates-and-times）
 void dates_and_times() {
   print('\n');
   print('#' * 40);
@@ -368,16 +362,6 @@ void dates_and_times() {
   assert(duration.inDays == 366); // y2k was a leap year.
 }
 
-// 工具类 （https://dart.cn/guides/libraries/library-tour#utility-classes）
-// TODO: 暂缓
-
-// 异常 (https://dart.cn/guides/libraries/library-tour#exceptions)
-// TODO: 暂缓
-
-// 异步编程 (https://dart.cn/guides/libraries/library-tour#dartasync---asynchronous-programming)
-// TODO: 暂缓
-
-// 数学和随机数 （https://dart.cn/guides/libraries/library-tour#dartmath---math-and-random）
 void math_and_random() {
   print('\n');
   print('#' * 40);
@@ -412,18 +396,9 @@ void math_and_random() {
   print('nextBool: $value3');
 }
 
-// 编解码JSON，UTF-8等 (https://dart.cn/guides/libraries/library-tour#dartconvert---decoding-and-encoding-json-utf-8-and-more)
-// TODO: 自学
-
-// 基于浏览器应用（https://dart.cn/guides/libraries/library-tour#darthtml）
-// TODO: 暂缓
-
-// 服务器和命令行应用程序的 I/O（https://dart.cn/guides/libraries/library-tour#dartio）
-// TODO: 自学，下周详细讲
-
 void main(List<String> args) {
   // 数字、集合、字符串等
-  dartLibrary_Test_Print();
+  dartLibrary_Test_String();
 
   // 集合
   collections();
